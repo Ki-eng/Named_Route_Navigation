@@ -1,16 +1,20 @@
-# named_route_navigation
+# Key Changes and Features of Named Routes Implementation:
+## Centralized Route Management:
 
-A new Flutter project.
+A route.dart file has been added to define all named routes in one place. This centralizes route management and simplifies the addition or modification of navigation paths.<br>
+**Named Routes:**
 
-## Getting Started
+Screens are now accessed using named identifiers instead of manual navigation calls.<br>
+For example, instead of directly using Navigator.push, you can now navigate with Navigator.pushNamed(context, '/about').<br>
+**Ease of Navigation:**
 
-This project is a starting point for a Flutter application.
+Named routes provide a more readable and intuitive way to navigate between screens, especially in apps with multiple pages.<br>
+**Consistency:**
 
-A few resources to get you started if this is your first Flutter project:
+All navigation logic is standardized, ensuring consistency throughout the app.<br>
+**Improved Maintainability:**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+If a route name or path needs to be updated, changes are made in a single location (route.dart), reducing the chances of errors and improving maintainability.<br>
+**Support for Dynamic Routing:**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Named routes also support passing arguments to screens, making the navigation system more powerful and flexible.
