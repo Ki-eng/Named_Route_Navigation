@@ -1,7 +1,7 @@
 # Key Changes and Features of Named Routes Implementation:
 ## Centralized Route Management:
 
-A route.dart file has been added to define all named routes in one place. This centralizes route management and simplifies the addition or modification of navigation paths.<br>
+A route.dart file has been added to define all named routes in one place. This centralizes route management and simplifies the addition or modification of navigation paths.<br><br>
 **Named Routes:**
 
 Screens are now accessed using named identifiers instead of manual navigation calls.<br>
